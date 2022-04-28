@@ -1,0 +1,98 @@
+/* Colors and fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url("components/list-inline.css");
+@import url("components/headline-title.css");
+@import url("components/container1.css");
+
+.container1 {
+	text-align: center;
+}
+
+.container1 body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	text-align: center;
+}
+
+.container1 h1, h2, h3 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.container1 p {
+	font-size: 16px;
+}
+
+.container1 a {
+	text-decoration: none;
+	color: black;
+}
+
+.container1 a:hover {
+	color: rgb(80, 190, 170); 
+}
+
+.container1 h4 {
+	font-weight: 500;
+    font-size: 21px;
+}
+
+.container body {
+	background: #F7F9FC;
+	color: #575F7D;
+	font-family: 'Bitter', serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.container h1, h2, h3, h4 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container h1{
+	color: ##575F7D;
+	font-size; 32px;
+	font-weight: 900;
+}
+
+.container h2, h3, h4 {
+	color: #7ECE90
+	font-weight: 300;
+}
+
+.container h2{
+	font-size:24px;
+}
+
+.container a{
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: bold;
+}
+
+.container a:hover {
+	color: pink;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%
+}
